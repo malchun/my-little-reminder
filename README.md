@@ -30,3 +30,5 @@ https://guides.micronaut.io/latest/micronaut-creating-first-graal-app-maven-kotl
 https://docs.micronaut.io/latest/guide/#creatingServer
 ### GraalVM
 https://www.graalvm.org/docs/getting-started/container-images/
+### Gradle
+https://github.com/dorongold/gradle-task-tree
