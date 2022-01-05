@@ -10,25 +10,28 @@ For the moment this project is a testbed for different technologies.
  - Kotlin
  - Gradle
  - Micronaut
+ - GraalVM
 ### Technologies planned
- - GraalVM/Native images
  - AWS/GCP -> Multicloud
  - Lambdas
  - React/Vue
 
 ## ToDo
 - [x] Start project!
-- [ ] Add docker image for project building
-- [ ] Modify it to use GraalVM
+- [x] Add docker image for project building
+- [x] Modify it to use GraalVM
 - [ ] Introduce DB
+- [ ] Introduce test
 - [ ] Enrich functionality
 
 ## Used materials
 ### Micronaut
-https://medium.com/reverse-engineering/creating-your-very-first-microservice-with-micronaut-and-kotlin-9be6be4a58d5
-https://guides.micronaut.io/latest/micronaut-creating-first-graal-app-maven-kotlin.html
-https://docs.micronaut.io/latest/guide/#creatingServer
+ * https://medium.com/reverse-engineering/creating-your-very-first-microservice-with-micronaut-and-kotlin-9be6be4a58d5
+ * https://guides.micronaut.io/latest/micronaut-creating-first-graal-app-maven-kotlin.html
+ * https://docs.micronaut.io/latest/guide/#creatingServer
 ### GraalVM
-https://www.graalvm.org/docs/getting-started/container-images/
+ * https://www.graalvm.org/docs/getting-started/container-images/
 ### Gradle
-https://github.com/dorongold/gradle-task-tree
+ * https://github.com/dorongold/gradle-task-tree
+
+More information could be found in Docs folder

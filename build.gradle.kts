@@ -5,7 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.0.6.RELEASE"
 	id("org.jetbrains.kotlin.plugin.allopen") version "1.6.0"
 	id("org.jetbrains.kotlin.kapt") version "1.6.0"
-	id("io.micronaut.application") version "3.0.1"
+	id("io.micronaut.application") version "3.1.0"
 	id("com.dorongold.task-tree") version "2.1.0"
 }
 
@@ -40,10 +40,14 @@ dependencies {
 	runtimeOnly("ch.qos.logback:logback-classic:1.2.3")
 }
 
+application {
+	mainClass.set("my.little.reminder.ReminderApplication")
+}
+
 tasks.withType<KotlinCompile> {
 	kotlinOptions {
 		freeCompilerArgs = listOf("-Xjsr305=strict")
-		jvmTarget = "11"
+		jvmTarget = "17"
 	}
 }
 
