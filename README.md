@@ -15,13 +15,18 @@ For the moment this project is a testbed for different technologies.
  - AWS/GCP -> Multicloud
  - Lambdas
  - React/Vue
+### Ideas
+### Ideas planned
+ - building dockerfile
+ - hal (hyperlinks) hateos/graphql
+ - article documentation approach
 
 ## ToDo
 - [x] Start project!
 - [x] Add docker image for project building
 - [x] Modify it to use GraalVM
+- [x] Introduce test
 - [ ] Introduce DB
-- [ ] Introduce test
 - [ ] Enrich functionality
 
 ## Used materials
